@@ -1,14 +1,31 @@
 # nrfiber
 
-## Install
+`nrfiber` is one of [New Relic Go Agent](https://github.com/newrelic/go-agent) integration packages.
+It instruments inbound requests through the [Fiber](https://gofiber.io/) framework.
 
-```shell
+[![Go Reference](https://pkg.go.dev/badge/github.com/ichizero/nrfiber.svg)](https://pkg.go.dev/github.com/ichizero/nrfiber)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ichizero/nrfiber)](https://goreportcard.com/report/github.com/ichizero/nrfiber)
+
+## 🚀 Install
+
+```bash
 go get -u github.com/ichizero/nrfiber
 ```
 
-## Usage
+## 🧐 Usage
 
 ```go
+package main
+
+import (
+	"log"
+	"net/http"
+
+	"github.com/gofiber/fiber/v2"
+	"github.com/ichizero/nrfiber"
+	"github.com/newrelic/go-agent/v3/newrelic"
+)
+
 func main() {
 	nrApp, err := newrelic.NewApplication(
 		newrelic.ConfigEnabled(true),

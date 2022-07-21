@@ -10,9 +10,9 @@ import (
 
 // Middleware creates Fiber middleware that instruments requests.
 //
-//		app := fiber.New()
-//		// Add the nrfiber middleware before other middlewares or routes:
-//		app.Use(nrfiber.Middleware(app))
+// 	app := fiber.New()
+// 	// Add the nrfiber middleware before other middlewares or routes:
+// 	app.Use(nrfiber.Middleware(app))
 func Middleware(app *newrelic.Application, opts ...Option) fiber.Handler {
 	if app == nil {
 		return func(c *fiber.Ctx) error { return c.Next() } // no-op

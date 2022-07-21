@@ -28,7 +28,6 @@ func main() {
 	app.Post("/echo", func(c *fiber.Ctx) error {
 		sleepWithFiberContext(c)
 		sleepWithContext(c.UserContext())
-
 		return c.Status(http.StatusOK).Send(c.Request().Body())
 	})
 

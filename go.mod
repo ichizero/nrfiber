@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/gofiber/fiber/v2 v2.44.0
-	github.com/newrelic/go-agent/v3 v3.21.1
+	github.com/newrelic/go-agent/v3 v3.22.1
 )
 
 require (

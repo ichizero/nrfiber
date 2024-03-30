@@ -116,6 +116,8 @@ github.com/newrelic/go-agent/v3 v3.26.0 h1:xJkqiQgLtC3ys5zoBxD91ITm7sVHZNEF+7/mq
 github.com/newrelic/go-agent/v3 v3.26.0/go.mod h1:sE2WdlLF3B/xI5HUuIHTa7Aht1gpcIY65pzaUoN1pJs=
 github.com/newrelic/go-agent/v3 v3.30.0 h1:ZXHCT/Cot4iIPwcegCZURuRQOsfmGA6wilW+S3bfBjY=
 github.com/newrelic/go-agent/v3 v3.30.0/go.mod h1:9utrgxlSryNqRrTvII2XBL+0lpofXbqXApvVWPpbzUg=
+github.com/newrelic/go-agent/v3 v3.31.0 h1:MVZA93FO6IEybg5EZUcOHUoDg5oBFuy8nrUIa2hfd8M=
+github.com/newrelic/go-agent/v3 v3.31.0/go.mod h1:MnbPbcIAmtKH80ZRXovE9kQLDs0Nc32IQa7bWydDKsk=
 github.com/philhofer/fwd v1.1.1/go.mod h1:gk3iGcWd9+svBvR0sR+KPcfE+RNWozjowpeBVG3ZVNU=
 github.com/philhofer/fwd v1.1.2 h1:bnDivRJ1EWPjUIRXV5KfORO897HTbpFAQddBdE8t7Gw=
 github.com/philhofer/fwd v1.1.2/go.mod h1:qkPdfjR2SIEbspLqpe1tO4n5yICnr2DY7mqEx2tUTP0=

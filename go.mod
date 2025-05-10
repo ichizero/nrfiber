@@ -6,7 +6,7 @@ toolchain go1.24.2
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.6
-	github.com/newrelic/go-agent/v3 v3.38.0
+	github.com/newrelic/go-agent/v3 v3.39.0
 )
 
 require (

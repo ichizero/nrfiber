@@ -2,7 +2,7 @@ module github.com/ichizero/nrfiber
 
 go 1.22
 
-toolchain go1.24.3
+toolchain go1.24.4
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.8
